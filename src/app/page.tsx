@@ -1,5 +1,10 @@
+import ThreeScene from '@/components/three/ThreeScene';
 import Image from 'next/image';
 
 export default function Home() {
-  return <div>Main app</div>;
+  return (
+    <main className='h-screen'>
+      <ThreeScene />
+    </main>
+  );
 }
